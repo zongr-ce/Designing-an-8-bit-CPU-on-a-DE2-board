@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for Altera-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<QuartusExecution>
+		<AddressBits>64</AddressBits>
+		<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus "C:\Users\zongr\Downloads\programming\Honor Project\8bit computer backup\8Bit_computer\8Bit_computer_diagram.qpf"</CommandLine>
+		<ErrorMessage>Access Violation at 0X00007FF4A6DB77B0</ErrorMessage>
+		<Line>0</Line>
+		<Platform>windows</Platform>
+		<SourceFile>unknown</SourceFile>
+		<StackTrace>
+	0x7ff4a6db77af:
+	 0x599bda63: (?queryAccessibleInterface@QAccessible@@SAPEAVQAccessibleInterface@@PEAVQObject@@@Z + 0x33)
+	 0x599c403c: (?setRootObject@QAccessible@@SAXPEAVQObject@@@Z + 0x153c)
+	 0x599c52e9: (?setRootObject@QAccessible@@SAXPEAVQObject@@@Z + 0x27e9)
+	0x7ffe40f3a4c0: (CreateStdAccessibleProxyW + 0x1e0)
+	0x7ffe24ddb45a:
+	0x7ffe24de1cd9:
+	0x7ffe24e1360e: (UiaReturnRawElementProvider + 0x1f3e)
+	0x7ffe24e13522: (UiaReturnRawElementProvider + 0x1e52)
+	0x7ffe24e1315d: (UiaReturnRawElementProvider + 0x1a8d)
+	0x7ffe24e12e49: (UiaReturnRawElementProvider + 0x1779)
+	0x7ffe514e35bf: (SystemParametersInfoW + 0x24f)
+	0x7ffe514e3b9c: (GetClassLongW + 0x58c)
+	0x7ffe53673ac3: (KiUserCallbackDispatcher + 0x23)
+	0x7ffe50cd14d3: (NtUserPeekMessage + 0x13)
+	0x7ffe514e26be: (PeekMessageW + 0x1ce)
+	0x7ffe514e258b: (PeekMessageW + 0x9b)
+	 0x595e0a6f: (?winFocus@QApplication@@QEAAXPEAVQWidget@@_N@Z + 0x18f)
+	 0x595e3f4c: (?restoreOverrideCursor@QApplication@@SAXXZ + 0x93c)
+	0x7ffe514d89a0: (DispatchMessageW + 0x740)
+	0x7ffe514d8460: (DispatchMessageW + 0x200)
+	 0x5a032f69: (?processEvents@QEventDispatcherWin32@@UEAA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x3b9)
+	 0x595e3564: (?translateTouchEvent@QApplicationPrivate@@QEAA_NAEBUtagMSG@@@Z + 0x884)
+	 0x5a009cf0: (?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x230)
+	 0x5a00e5ff: (?exec@QCoreApplication@@SAHXZ + 0xdf)
+	0x7ff7db5a108e:
+	0x7ffe272a4c78: (?msg_exe_fini@@YAXXZ + 0x58)
+	0x7ffe272a53bc: (?msg_exe_fini@@YAXXZ + 0x79c)
+	0x7ffe30d71584: (??1MEM_SEGMENT_INTERNAL@@UEAA@XZ + 0x194)
+	0x7ffe272a5f9f: (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0x8f)
+	0x7ff7db5a1ab2:
+	0x7ff7db5a13de:
+	0x7ffe51aa257c: (BaseThreadInitThunk + 0x1c)
+	0x7ffe5362aa47: (RtlUserThreadStart + 0x27)
+		</StackTrace>
+		<Subsystem>unknown</Subsystem>
+	</ApplicationError>
+	<Compilation>
+			<CompileID>0</CompileID>
+			<DeviceFamily/>
+			<IncrementalCompilation/>
+			<TopLevelEntityName/>
+		</Compilation>
+		<DateInvoked>2024/05/31 12:14:04</DateInvoked>
+		<ElapsedTime>13</ElapsedTime>
+		<IP>10.97.9.17</IP>
+		<IsInternal>false</IsInternal>
+		<IsQt>true</IsQt>
+		<License>
+			<Edition>Web Edition</Edition>
+			<LicenseHostID/>
+		</License>
+		<Machine>
+			<CPUCountLogical>8</CPUCountLogical>
+			<CPUCountPhysical>1</CPUCountPhysical>
+			<CPUSpeed>2112</CPUSpeed>
+			<Hostname>Onesime-Laptop</Hostname>
+			<NIC>
+				<Address>1065307aac8c</Address>
+			</NIC>
+			<NIC>
+				<Address>7c2a3177cd0f</Address>
+			</NIC>
+			<NIC>
+				<Address>7c2a3177cd0b</Address>
+			</NIC>
+			<NIC>
+				<Address>7c2a3177cd0c</Address>
+			</NIC>
+			<NIC>
+				<Address>7e2a3177cd0b</Address>
+			</NIC>
+			<OS>Windows 7</OS>
+			<OSAddressBits>64</OSAddressBits>
+			<OSVersion>6.2</OSVersion>
+			<Platform>windows</Platform>
+			<ScreenResolution>unknown</ScreenResolution>
+			<TotalPhysicalRAM>16262</TotalPhysicalRAM>
+			<TotalVirtualRAM>2432</TotalVirtualRAM>
+		</Machine>
+		<Name>quartus</Name>
+		<PeakMemoryUsed>0</PeakMemoryUsed>
+		<ProjectRevision>
+			<ProjectName/>
+			<Revision/>
+		</ProjectRevision>
+		<QuartusInstallation>
+			<InstallationID>0</InstallationID>
+			<Version>
+				<Build>232</Build>
+				<BuildSite>SJ</BuildSite>
+				<BuildSuffix/>
+				<Edition>Web Edition</Edition>
+				<ServicePack>0</ServicePack>
+				<VersionNumber>13</VersionNumber>
+			</Version>
+		</QuartusInstallation>
+		<QuartusUser>
+			<AlteraUserName/>
+			<FAEContactName/>
+			<TalkbackStatus>
+				<DateSet/>
+				<TalkbackOn>true</TalkbackOn>
+			</TalkbackStatus>
+			<UserID>18026791087244.169669237808248</UserID>
+			<UserName>zongr</UserName>
+		</QuartusUser>
+	</QuartusExecution>
+	<SchemaVersion>schema_2013-01-18</SchemaVersion>
+</ProgramExecution>
+

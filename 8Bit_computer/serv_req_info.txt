@@ -1,0 +1,24 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>PDB</sub_system>
+	<file>/quartus/db/pdb/pdb_error.cpp</file>
+	<line>153</line>
+	<callstack>
+	0x037b22ae: cbx_util + 0x36222aa (?read_file@CBX_MEMORY_FILE@@QAE_NXZ + 0x36137ca)
+	0x0175698e: cbx_util + 0x15c698a (?read_file@CBX_MEMORY_FILE@@QAE_NXZ + 0x15b7eaa)
+	</callstack>
+	<error>pdb_id &lt;= object_info-&gt;m_ptr_table_size</error>
+	<date>Sat Oct 07 01:27:04 2023</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>pdb_id &lt;= object_info-&gt;m_ptr_table_size
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>MEM</sub_system>
+	<error>*** Fatal Error: Out of memory in module quartus.exe (62460 megabytes used)</error>
+	<date>Sat Nov 04 20:58:14 2023</date>
+	<version>Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition</version>
+</internal_error>
+
