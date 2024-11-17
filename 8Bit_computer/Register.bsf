@@ -20,15 +20,15 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 64 64 200 320)
+	(rect 16 16 152 272)
 	(text "Register" (rect 5 0 52 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 240 25 252)(font "Arial" ))
 	(port
-		(pt 0 80)
+		(pt 0 32)
 		(input)
 		(text "WriteEnable" (rect 0 0 67 14)(font "Arial" (font_size 8)))
-		(text "WriteEnable" (rect 21 75 88 89)(font "Arial" (font_size 8)))
-		(line (pt 0 80)(pt 16 80))
+		(text "WriteEnable" (rect 21 27 88 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
@@ -45,11 +45,11 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
-		(pt 0 32)
+		(pt 0 80)
 		(input)
 		(text "ReadEnable" (rect 0 0 67 14)(font "Arial" (font_size 8)))
-		(text "ReadEnable" (rect 21 27 88 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "ReadEnable" (rect 21 75 88 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
 	)
 	(port
 		(pt 0 96)

@@ -86,22 +86,6 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -184 -152 -16 -136)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "WE" (rect 5 0 22 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12))
-		(line (pt 92 4)(pt 117 4))
-		(line (pt 121 8)(pt 168 8))
-		(line (pt 92 12)(pt 92 4))
-		(line (pt 117 4)(pt 121 8))
-		(line (pt 117 12)(pt 121 8))
-	)
-	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect -184 -120 -16 -104)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CLK_Enable" (rect 5 0 65 12)(font "Arial" ))
@@ -131,6 +115,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -240 -72 -184 -56))
 )
 (pin
 	(input)
@@ -150,9 +135,25 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -184 -184 -16 -168)
+	(rect -184 -152 -16 -136)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "RE" (rect 5 0 20 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 168 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -184 -232 -16 -216)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "WE" (rect 5 0 22 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -1369,18 +1370,6 @@ applicable agreement for further details.
 	(pt 504 72)
 )
 (connector
-	(pt 272 -176)
-	(pt -16 -176)
-)
-(connector
-	(pt 272 -176)
-	(pt 272 80)
-)
-(connector
-	(pt 272 80)
-	(pt 272 136)
-)
-(connector
 	(pt 240 120)
 	(pt 288 120)
 )
@@ -1655,6 +1644,18 @@ applicable agreement for further details.
 (connector
 	(pt 672 512)
 	(pt 776 512)
+)
+(connector
+	(pt 272 -224)
+	(pt -16 -224)
+)
+(connector
+	(pt 272 -224)
+	(pt 272 80)
+)
+(connector
+	(pt 272 80)
+	(pt 272 136)
 )
 (junction (pt 624 88))
 (junction (pt 632 232))

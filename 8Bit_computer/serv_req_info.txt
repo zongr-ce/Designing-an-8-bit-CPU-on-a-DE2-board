@@ -22,3 +22,19 @@ Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
 	<version>Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition</version>
 </internal_error>
 
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>MEM</sub_system>
+	<error>*** Fatal Error: Out of memory in module quartus.exe (59361 megabytes used)</error>
+	<date>Sat Nov 16 20:12:57 2024</date>
+	<version>Version 13.1.0 Build 162 10/23/2013 SJ Web Edition</version>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>MEM</sub_system>
+	<error>*** Fatal Error: Out of memory in module quartus.exe (59341 megabytes used)</error>
+	<date>Sat Nov 16 20:30:52 2024</date>
+	<version>Version 13.1.0 Build 162 10/23/2013 SJ Web Edition</version>
+</internal_error>
+

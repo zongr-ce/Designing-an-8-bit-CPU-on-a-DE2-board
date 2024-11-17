@@ -86,7 +86,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -1144 -552 -976 -536)
+	(rect -1144 -416 -976 -400)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CLR" (rect 9 0 31 12)(font "Arial" ))
 	(pt 168 8)
@@ -102,7 +102,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -1144 -528 -976 -512)
+	(rect -1144 -392 -976 -376)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CLK" (rect 9 0 30 12)(font "Arial" ))
 	(pt 168 8)
@@ -119,7 +119,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -1144 -504 -976 -488)
+	(rect -1144 -304 -976 -288)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "WE" (rect 9 0 26 12)(font "Arial" ))
 	(pt 168 8)
@@ -135,7 +135,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -1144 -480 -976 -464)
+	(rect -1144 -344 -976 -328)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "RE" (rect 9 0 24 12)(font "Arial" ))
 	(pt 168 8)
@@ -2418,277 +2418,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 448 264 512 312)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst58" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 -184 512 -136)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst60" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 -120 512 -72)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst64" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 -56 512 -8)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst65" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 8 512 56)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst66" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 72 512 120)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst67" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 136 512 184)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst68" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 448 200 512 248)
-	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst69" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 14 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 42 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 12)(pt 30 12))
-		(line (pt 14 37)(pt 31 37))
-		(line (pt 14 12)(pt 14 37))
-		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
-	)
-)
-(symbol
-	(rect 408 -352 440 -336)
-	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
-	(text "inst62" (rect 3 5 32 17)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
 	(rect 112 -8 208 728)
 	(text "RAM_Cells" (rect 5 0 66 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 720 25 732)(font "Arial" ))
@@ -3871,10 +3600,6 @@ applicable agreement for further details.
 	(pt -80 680)
 )
 (connector
-	(pt -440 384)
-	(pt -440 256)
-)
-(connector
 	(pt -440 512)
 	(pt -440 384)
 )
@@ -3929,10 +3654,6 @@ applicable agreement for further details.
 (connector
 	(pt -440 2048)
 	(pt -440 1920)
-)
-(connector
-	(pt -456 304)
-	(pt -456 176)
 )
 (connector
 	(pt -456 432)
@@ -4071,30 +3792,6 @@ applicable agreement for further details.
 	(pt -888 -96)
 )
 (connector
-	(pt -128 -544)
-	(pt -128 152)
-)
-(connector
-	(pt -160 -520)
-	(pt -160 168)
-)
-(connector
-	(pt -440 -496)
-	(pt -440 256)
-)
-(connector
-	(pt -456 -472)
-	(pt -456 176)
-)
-(connector
-	(pt -160 168)
-	(pt 112 168)
-)
-(connector
-	(pt -128 152)
-	(pt 112 152)
-)
-(connector
 	(pt 224 -24)
 	(pt 224 24)
 )
@@ -4153,22 +3850,6 @@ applicable agreement for further details.
 (connector
 	(pt 224 -24)
 	(pt 232 -24)
-)
-(connector
-	(pt -976 -544)
-	(pt -128 -544)
-)
-(connector
-	(pt -976 -520)
-	(pt -160 -520)
-)
-(connector
-	(pt -976 -496)
-	(pt -440 -496)
-)
-(connector
-	(pt -976 -472)
-	(pt -456 -472)
 )
 (connector
 	(pt -664 192)
@@ -4752,19 +4433,11 @@ applicable agreement for further details.
 )
 (connector
 	(pt 232 -152)
-	(pt 448 -152)
-)
-(connector
-	(pt 232 -152)
 	(pt 232 -24)
 )
 (connector
 	(pt 232 -24)
 	(pt 232 584)
-)
-(connector
-	(pt 256 -88)
-	(pt 448 -88)
 )
 (connector
 	(pt 256 -88)
@@ -4776,19 +4449,11 @@ applicable agreement for further details.
 )
 (connector
 	(pt 280 -24)
-	(pt 448 -24)
-)
-(connector
-	(pt 280 -24)
 	(pt 280 40)
 )
 (connector
 	(pt 280 40)
 	(pt 280 552)
-)
-(connector
-	(pt 296 24)
-	(pt 448 24)
 )
 (connector
 	(pt 296 24)
@@ -4799,40 +4464,12 @@ applicable agreement for further details.
 	(pt 296 536)
 )
 (connector
-	(pt 208 88)
-	(pt 320 88)
-)
-(connector
-	(pt 320 88)
-	(pt 448 88)
-)
-(connector
 	(pt 352 152)
 	(pt 352 504)
 )
 (connector
 	(pt 328 104)
 	(pt 328 152)
-)
-(connector
-	(pt 328 152)
-	(pt 352 152)
-)
-(connector
-	(pt 352 152)
-	(pt 448 152)
-)
-(connector
-	(pt 376 168)
-	(pt 376 216)
-)
-(connector
-	(pt 376 216)
-	(pt 376 488)
-)
-(connector
-	(pt 376 216)
-	(pt 448 216)
 )
 (connector
 	(pt 392 280)
@@ -4843,108 +4480,172 @@ applicable agreement for further details.
 	(pt 264 280)
 )
 (connector
+	(pt 552 -160)
+	(pt 664 -160)
+)
+(connector
+	(pt 552 -96)
+	(pt 664 -96)
+)
+(connector
+	(pt 552 -32)
+	(pt 664 -32)
+)
+(connector
+	(pt 552 32)
+	(pt 664 32)
+)
+(connector
+	(pt 552 96)
+	(pt 664 96)
+)
+(connector
+	(pt 552 224)
+	(pt 664 224)
+)
+(connector
+	(pt 552 160)
+	(pt 664 160)
+)
+(connector
+	(pt 560 280)
+	(pt 560 288)
+)
+(connector
 	(pt 264 280)
 	(pt 392 280)
 )
 (connector
 	(pt 392 280)
-	(pt 448 280)
+	(pt 560 280)
 )
 (connector
-	(pt 424 296)
-	(pt 448 296)
+	(pt 552 288)
+	(pt 560 288)
 )
 (connector
-	(pt 448 232)
-	(pt 424 232)
-)
-(connector
-	(pt 424 232)
-	(pt 424 296)
-)
-(connector
-	(pt 448 168)
-	(pt 424 168)
-)
-(connector
-	(pt 424 168)
-	(pt 424 232)
-)
-(connector
-	(pt 448 104)
-	(pt 424 104)
-)
-(connector
-	(pt 424 104)
-	(pt 424 168)
-)
-(connector
-	(pt 448 40)
-	(pt 424 40)
-)
-(connector
-	(pt 424 40)
-	(pt 424 104)
-)
-(connector
-	(pt 448 -40)
-	(pt 424 -40)
-)
-(connector
-	(pt 424 -40)
-	(pt 424 40)
-)
-(connector
-	(pt 448 -104)
-	(pt 424 -104)
-)
-(connector
-	(pt 424 -104)
-	(pt 424 -40)
-)
-(connector
-	(pt 448 -168)
-	(pt 424 -168)
-)
-(connector
-	(pt 424 -336)
-	(pt 424 -168)
-)
-(connector
-	(pt 424 -168)
-	(pt 424 -104)
-)
-(connector
-	(pt 512 -160)
-	(pt 664 -160)
-)
-(connector
-	(pt 512 -96)
-	(pt 664 -96)
-)
-(connector
-	(pt 512 -32)
-	(pt 664 -32)
-)
-(connector
-	(pt 512 32)
-	(pt 664 32)
-)
-(connector
-	(pt 512 96)
-	(pt 664 96)
-)
-(connector
-	(pt 512 288)
+	(pt 560 288)
 	(pt 664 288)
 )
 (connector
-	(pt 512 224)
-	(pt 664 224)
+	(pt 552 216)
+	(pt 376 216)
 )
 (connector
-	(pt 512 160)
-	(pt 664 160)
+	(pt 552 216)
+	(pt 552 224)
+)
+(connector
+	(pt 376 168)
+	(pt 376 216)
+)
+(connector
+	(pt 376 216)
+	(pt 376 488)
+)
+(connector
+	(pt 552 152)
+	(pt 552 160)
+)
+(connector
+	(pt 328 152)
+	(pt 352 152)
+)
+(connector
+	(pt 352 152)
+	(pt 552 152)
+)
+(connector
+	(pt 552 88)
+	(pt 552 96)
+)
+(connector
+	(pt 208 88)
+	(pt 320 88)
+)
+(connector
+	(pt 320 88)
+	(pt 552 88)
+)
+(connector
+	(pt 552 24)
+	(pt 296 24)
+)
+(connector
+	(pt 552 24)
+	(pt 552 32)
+)
+(connector
+	(pt 552 -24)
+	(pt 280 -24)
+)
+(connector
+	(pt 552 -24)
+	(pt 552 -32)
+)
+(connector
+	(pt 552 -88)
+	(pt 256 -88)
+)
+(connector
+	(pt 552 -88)
+	(pt 552 -96)
+)
+(connector
+	(pt 552 -152)
+	(pt 232 -152)
+)
+(connector
+	(pt 552 -152)
+	(pt 552 -160)
+)
+(connector
+	(pt -128 152)
+	(pt -128 -408)
+)
+(connector
+	(pt -160 168)
+	(pt -160 -384)
+)
+(connector
+	(pt 112 168)
+	(pt -160 168)
+)
+(connector
+	(pt 112 152)
+	(pt -128 152)
+)
+(connector
+	(pt -976 -408)
+	(pt -128 -408)
+)
+(connector
+	(pt -976 -384)
+	(pt -160 -384)
+)
+(connector
+	(pt -976 -336)
+	(pt -456 -336)
+)
+(connector
+	(pt -976 -296)
+	(pt -440 -296)
+)
+(connector
+	(pt -456 -336)
+	(pt -456 176)
+)
+(connector
+	(pt -456 176)
+	(pt -456 304)
+)
+(connector
+	(pt -440 -296)
+	(pt -440 256)
+)
+(connector
+	(pt -440 256)
+	(pt -440 384)
 )
 (junction (pt -408 216))
 (junction (pt -408 344))
@@ -5068,10 +4769,4 @@ applicable agreement for further details.
 (junction (pt 352 152))
 (junction (pt 376 216))
 (junction (pt 392 280))
-(junction (pt 424 232))
-(junction (pt 424 168))
-(junction (pt 424 104))
-(junction (pt 424 40))
-(junction (pt 424 -40))
-(junction (pt 424 -104))
-(junction (pt 424 -168))
+(junction (pt 560 288))
